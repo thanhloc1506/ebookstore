@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "root",
+    "password": "thanhloc0160",
+    "database": "EBOOKSTORE",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}

@@ -1,0 +1,15 @@
+<h1>Example App: EBook-Store</h1>
+<h2>Show all books</h2>
+{{#if books}}
+<p>ISBN
+    TenSach
+    GiaTien
+    TenNhaXuatBan</p>
+{{#each books}}
+
+<p>{{this.ISBN}}
+    {{this.TenSach}}
+    {{this.GiaTien}}
+    {{this.TenNhaXuatBan}}</p>
+{{/each}}
+{{/if}}
